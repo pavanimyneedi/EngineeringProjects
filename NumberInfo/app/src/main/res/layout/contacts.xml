@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/thirtysp"
+        android:text="@string/name_contacts_activity"
+        android:layout_marginTop="@dimen/tendp_paddingbottom"
+        android:layout_marginLeft="@dimen/fiveDp"
+        android:layout_marginRight="@dimen/fiveDp"
+        android:background="@color/orange"
+        android:id="@+id/contact_id"
+        android:paddingTop="@dimen/tendp_paddingbottom"
+       android:textAlignment="center"
+        android:padding="@dimen/fiveDp"
+        />
+</LinearLayout>

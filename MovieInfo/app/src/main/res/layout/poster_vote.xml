@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/poster_vote"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear2"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:padding="@dimen/linear2_padding"
+        android:paddingRight="@dimen/linear2_padding_right">
+
+    <ImageView
+        android:id="@+id/image_back"
+        android:layout_width="@dimen/image_view_height"
+        android:layout_height="@dimen/image_view_width"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear3"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear4"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/linear4_margin_left"
+                android:layout_marginRight="@dimen/linear_margin_right"
+                android:layout_marginTop="@dimen/linear_margin_top"
+                android:fontFamily="@string/font_family"
+                android:text="@string/release_date_text_view"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/rel_date_text_size" />
+
+            <TextView
+                android:id="@+id/text_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_view5_margin_left"
+                android:text="@string/vote_avg_text_view5"
+                android:layout_marginTop="@dimen/text_view5_margin_top"
+                android:fontFamily="@string/font_family"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/rel_date_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rel_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rel_date_rext"
+                android:textColor="@color/brown"
+                android:layout_marginTop="@dimen/rel_date_margin_top"
+                android:fontFamily="@string/font_family"
+                android:textSize="@dimen/rel_date_text_size" />
+
+            <TextView
+                android:id="@+id/vote_avg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vote_avg"
+                android:layout_marginTop="@dimen/vote_avg_margin_top"
+                android:fontFamily="@string/font_family"
+                android:textColor="@color/brown"
+                android:textSize="@dimen/rel_date_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

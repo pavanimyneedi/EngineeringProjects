@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="twentydp">20dp</dimen>
+    <dimen name="thirtydp">30dp</dimen>
+    <dimen name="twentysp">20sp</dimen>
+    <dimen name="twoseventydp_contact_detail_activity">270dp</dimen>
+    <dimen name="fiftysp_contact_detail_name">50sp</dimen>
+    <dimen name="paaddingtop_contact_detail_tv1">190dp</dimen>
+    <dimen name="eightdp_contact_detail_button">8dp</dimen>
+    <dimen name="fiftydp_contact_detail_button_height">50dp</dimen>
+    <dimen name="contact_detail_padding_top_tv">25dp</dimen>
+    <dimen name="paddingLeft_tv_contact_detail">15dp</dimen>
+    <dimen name="tvSize_contact_detail">24sp</dimen>
+    <dimen name="tendp_paddingbottom">10dp</dimen>
+    <dimen name="paddingleft_con_detail">15dp</dimen>
+    <dimen name="tv2_layout_height_con_detail">60dp</dimen>
+    <dimen name="twentyFivedp_margin_top_mainActivity">25dp</dimen>
+    <dimen name="fiveDp">5dp</dimen>
+    <dimen name="threedp">3dp</dimen>
+    <dimen name="tendp_recoveractivity_et">10dp</dimen>
+    <dimen name="margintop_button_recoverActivity">100dp</dimen>
+    <dimen name="textSize_register_et1">25sp</dimen>
+    <dimen name="thirtysp">30sp</dimen>
+    <dimen name="eightdp">8dp</dimen>
+    <dimen name="widget_textSize_twentyfoursp">24sp</dimen>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactDetailActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twoseventydp_contact_detail_activity"
+        android:text="@string/name_contact_detail_activity"
+        android:textSize="@dimen/fiftysp_contact_detail_name"
+        android:fontFamily="monospace"
+        android:id="@+id/contact_deatail_activity_name"
+        android:paddingTop="@dimen/paaddingtop_contact_detail_tv1"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="@dimen/paddingleft_con_detail"
+        android:paddingBottom="@dimen/tendp_paddingbottom"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv2_layout_height_con_detail"
+            android:text="@string/text_contact_detail"
+            android:textSize="@dimen/tvSize_contact_detail"
+            android:paddingLeft="@dimen/paddingLeft_tv_contact_detail"
+            android:background="@color/colorWhite"
+            android:id="@+id/contact_detail_activity_number"
+            android:paddingTop="@dimen/contact_detail_padding_top_tv"
+            android:fontFamily="monospace"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fiftydp_contact_detail_button_height"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:id="@+id/call"
+        android:textSize="@dimen/twentysp"
+        android:text="@string/call_contact_detail_activity"
+        android:layout_marginTop="@dimen/thirtydp"
+        android:padding="@dimen/eightdp_contact_detail_button"/>
+
+</LinearLayout>

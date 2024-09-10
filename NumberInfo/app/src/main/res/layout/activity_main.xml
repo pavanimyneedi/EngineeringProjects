@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_page"
+        android:textSize="@dimen/twentyFivedp_margin_top_mainActivity"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:padding="@dimen/twentydp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please enter your email id"
+        android:layout_marginTop="@dimen/twentydp"
+        android:textColorHint="@color/blue"
+        android:id="@+id/login_activity_mail_id"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twentydp"
+        android:id="@+id/login_activity_pwd"
+        android:hint="please enter your password"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_id"
+        android:text="@string/login_main_activity"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/twentyFivedp_margin_top_mainActivity"
+        android:padding="@dimen/fiveDp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password?"
+        android:textColor="@color/red"
+        android:textSize="@dimen/twentysp"
+        android:id="@+id/forgot_id"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/twentydp"
+        android:padding="@dimen/threedp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button_main_activity"
+        android:id="@+id/reg_main_btn"
+        android:layout_gravity="center"
+        android:padding="@dimen/threedp"
+        android:layout_marginTop="@dimen/twentydp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/assess_file_padding_li1"
+    android:background="@drawable/border"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author_tv"
+            android:textColor="@color/pink"
+            android:fontFamily="casual"
+            android:textSize="@dimen/author_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_text_view"
+            android:textColor="@color/pink"
+            android:fontFamily="casual"
+            android:textSize="@dimen/author_text_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_tv"
+            android:textColor="@color/pink"
+            android:fontFamily="casual"
+            android:textSize="@dimen/author_text_size"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fontFamily="casual"
+        android:textSize="@dimen/author_text_size">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_author"
+            android:text="@string/enhablish"
+            android:textColor="@color/brown"
+            android:fontFamily="casual"
+            android:textSize="@dimen/author_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_id"
+            android:text="@string/id_tv"
+            android:textColor="@color/brown"
+            android:fontFamily="casual"
+            android:textSize="@dimen/author_text_size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_content"
+            android:text="@string/content_tv_desc"
+            android:textColor="@color/brown"
+            android:fontFamily="casual"
+            android:textSize="@dimen/author_text_size"/>
+
+    </LinearLayout>
+</LinearLayout>

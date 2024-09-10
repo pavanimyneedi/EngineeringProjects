@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MovieInfo</string>
+    <string name="network_connected">Connected to Internet</string>
+    <string name="not_connected">Please Check your Internet Connection</string>
+    <string name="no_favourites">No Favourites</string>
+    <string name="removed_as_fav">Removed From Favourites</string>
+    <string name="added_as_fav">Added To Favourites</string>
+    <string name="vote_avg">6.10</string>
+    <string name="rel_date_rext">2010</string>
+    <string name="font_family">cursive</string>
+    <string name="release_date_text_view">Release Date :</string>
+    <string name="vote_avg_text_view5">Vote Average :</string>
+    <string name="add_to_fav">Add to Fav</string>
+    <string name="Trailer_text">Trailer</string>
+    <string name="text_title">TITLE</string>
+    <string name="trailer_text">Trailers</string>
+    <string name="assesment_text_view">Assessment :</string>
+    <string name="id_text_view">Id :</string>
+    <string name="author_tv">Author :</string>
+    <string name="content_tv">Content :</string>
+    <string name="enhablish">enhablesh</string>
+    <string name="id_tv">001</string>
+    <string name="content_tv_desc">Content</string>
+    <string name="synopsis">Synopsis :</string>
+</resources>

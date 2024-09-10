@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:id="@+id/id_synopsis"
+    android:layout_marginBottom="@dimen/margintop"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginleft"
+            android:padding="@dimen/padding"
+            android:textStyle="italic"
+            android:text="@string/synopsis"
+            android:fontFamily="casual"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/tv_synopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_1"
+            android:textColor="@color/brown"
+            android:textStyle="italic"
+            android:fontFamily="casual"
+            android:padding="@dimen/synopsis_padding"
+            android:textSize="@dimen/synopsis_txt_size" />
+    </LinearLayout>

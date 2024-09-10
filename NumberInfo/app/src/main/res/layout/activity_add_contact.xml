@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddContactActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twentydp"
+        android:textColorHint="@color/blue"
+        android:hint="@string/hintname_activity_add_contact"
+        android:id="@+id/activity_contact_name"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twentydp"
+        android:textColorHint="@color/blue"
+        android:inputType="number"
+        android:id="@+id/activity_contact_phnno"
+        android:hint="@string/phone_number_add_contact_activity"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addcontact"
+        android:id="@+id/add_contact"
+        android:textSize="@dimen/twentysp"
+        android:layout_marginTop="@dimen/thirtydp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

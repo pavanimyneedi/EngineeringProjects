@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_id"
+        android:text="@string/register"
+        android:textColor="@color/red"
+        android:textSize="@dimen/textSize_register_et1"
+        android:padding="@dimen/thirtydp"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email_id"
+        android:textColorHint="@color/blue"
+        android:layout_marginTop="@dimen/twentydp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/blue"
+        android:id="@+id/reg_pass"
+       android:inputType="textPassword"
+        android:hint="@string/enter_your_password"
+        android:layout_marginTop="@dimen/twentydp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_btn_id"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/twentydp"
+        android:text="@string/register_register_activity"
+        />
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_id"
+        android:layout_marginTop="@dimen/twentydp"
+        android:layout_marginLeft="@dimen/twentydp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/add_id" />
+
+
+
+</LinearLayout>

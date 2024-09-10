@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_trailar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Trailer_text"
+            android:textSize="@dimen/trailer_text_size"
+            android:layout_gravity="center"
+            android:background="@drawable/border_asses"
+            android:textColor="@color/trailer_text_color"
+            android:padding="@dimen/triler_padding"
+            android:fontFamily="casual"
+            android:id="@+id/text_trailar_list"/>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
